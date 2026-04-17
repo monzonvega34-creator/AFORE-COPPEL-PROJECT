@@ -15,13 +15,12 @@ GRID_COLOR = "rgba(0,0,0,.25)"
 GRID_WIDTH  = 1.10
 
 # ── Tamaños de fuente uniformes ───────────────────────────────────────────────
-FS_TITLE  = 32   # títulos de gráfica
-FS_AXIS   = 22   # etiquetas de ejes (xlabel / ylabel)
-FS_TICK   = 20   # valores de los ejes
-FS_LEGEND = 20   # leyenda
-FS_HOVER  = 14   # hover
-FS_ANNOT  = 18   # anotaciones
-
+FS_TITLE  = 32   
+FS_AXIS   = 22   
+FS_TICK   = 20   
+FS_LEGEND = 20   
+FS_HOVER  = 14   
+FS_ANNOT  = 18   
 # ── Título e imagen ───────────────────────────────────────────────────────────
 st.title("¿PUEDE COPPEL SER EL AFORE #1 CON APORTACIONES VOLUNTARIAS?")
 
