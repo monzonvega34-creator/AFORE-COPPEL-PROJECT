@@ -921,7 +921,7 @@ st.divider()
 # ── Imagen final ──────────────────────────────────────────────────────────────
 col1, col2, col3 = st.columns([10, 10, 10])
 with col2:
-    st.image("APP AFORE.jpg", width=2000)
+    st.image("APP AFORE.jpg")
 
 # cd C:/Users/monzo/Desktop/PAD/COPPEL
 # python -m streamlit run APP_COPPEL.py
