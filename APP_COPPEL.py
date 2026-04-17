@@ -821,10 +821,7 @@ st.plotly_chart(fig9)
 st.divider()
 
 # ── GOOGLE TRENDS ─────────────────────────────────────────────────────────────
-google = pd.read_excel(
-    "C:/Users/monzo/Desktop/PAD/COPPEL/COPPEL_GOOGLE_TRENDS.xlsx",
-    sheet_name=None,
-)
+google = pd.read_excel(COPPEL_GOOGLE_TRENDS.xlsx", sheet_name=None)
 GT_COLORS = [
     "#00C8FF", "#FF6B35", "#FFD700", "#B44FFF",
     "#00E676", "#FF4081", "#FF9100", "#64FFDA",
