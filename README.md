@@ -117,3 +117,12 @@ Se identificaron patrones estacionales claros:
 | 📈 Mayo | Pico | PTU disponible |
 | 📈 Noviembre | Pico | Cierre de ejercicio fiscal |
 
+
+
+## 👤 Autor
+**JONATHAN MONZON**
+
+**Fuentes:** gobierno de mexico, comision nacional bancaria y de valores, Inegi, Informes Financieros.
+*Proyecto desarrollado como parte de un portafolio de análisis de datos. Los datos fueron recopilados de fuentes públicas con fines académicos y de aprendizaje.*
+
+
