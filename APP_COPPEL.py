@@ -1042,5 +1042,4 @@ st.plotly_chart(fig_actual, use_container_width=True)
 
 
 
-# cd C:/Users/monzo/Desktop/PAD/COPPEL
-# python -m streamlit run APP_COPPEL.py
+
