@@ -123,6 +123,7 @@ Se identificaron patrones estacionales claros:
 **JONATHAN MONZON**
 
 **Fuentes:** gobierno de mexico, comision nacional bancaria y de valores, Inegi, Informes Financieros.
+
 *Proyecto desarrollado como parte de un portafolio de análisis de datos. Los datos fueron recopilados de fuentes públicas con fines académicos y de aprendizaje.*
 
 
