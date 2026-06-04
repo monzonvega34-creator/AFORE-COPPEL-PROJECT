@@ -774,7 +774,6 @@ def make_trends_fig(df, title, replace_zeros=False, min_year=None):
     return fig10
 
 
-# ── 2. Luego el selector y las llamadas ───────────────────────
 opciones = {
     "Interés de búsqueda en Google Trends — AFOREs": "consultas",
     "Interés de búsqueda en Google Trends — AFOREs Aplicaciones": "afore_app_SAF",
@@ -947,7 +946,6 @@ fig12.update_layout(
 df_anual_afore = df2.groupby(["año", "afore"])["incremento_mensual"].sum().reset_index()
 df_total_año = df_anual_afore.groupby("año")["incremento_mensual"].sum().reset_index()
 
-# 1. Primero crear la figura de barras
 fig13 = px.bar(
     df_anual_afore,
     x="año",
@@ -957,7 +955,6 @@ fig13 = px.bar(
     labels={"incremento_mensual": "Incremento Total", "año": "Año"}
 )
 
-# 2. Luego agregar la línea de tendencia real por año
 fig13.add_trace(go.Scatter(
     x=df_total_año["año"],
     y=df_total_año["incremento_mensual"],
@@ -968,7 +965,6 @@ fig13.add_trace(go.Scatter(
     hovertemplate="<b>Total AFOREs</b><br>Año: %{x}<br>Incremento: %{y:.1f}%<extra></extra>"
 ))
 
-# 3. Layout al final
 fig13.update_layout(
     template="plotly_white",
     title=dict(
@@ -1089,10 +1085,3 @@ with col_next2:
 
 _, fig_actual = graficas_2[st.session_state.slide_idx_2]
 st.plotly_chart(fig_actual, use_container_width=True)
-
-
-
-
-
-# cd C:/Users/monzo/Desktop/PAD/COPPEL
-# python -m streamlit run APP_COPPEL.py
