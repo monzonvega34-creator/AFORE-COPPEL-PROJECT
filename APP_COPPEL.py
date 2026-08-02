@@ -928,7 +928,7 @@ fig12.update_xaxes(
 fig12.update_layout(
     template="plotly_white",
     title=dict(
-        text="<b>Distribución del Incremento Anual</b><br><sup>Por disponibilidad de App</sup>",
+        text="<b>Distribución del Incremento Mensual</b><br><sup>Por disponibilidad de App</sup>",
         x=0.5,
         xanchor="center",
         font=dict(size=20, color="#1a1a2e"),
@@ -968,7 +968,7 @@ fig13.add_trace(go.Scatter(
 fig13.update_layout(
     template="plotly_white",
     title=dict(
-        text="<b>INCREMENTO ACUMULADO MENSUAL EN APORTACIONES VOLUNTARIAS POR AFORE</b><br>",
+        text="<b>INCREMENTO ACUMULADO ANUAL EN APORTACIONES VOLUNTARIAS POR AFORE</b><br>",
         font=dict(size=FS_TITLE, color="#1a1a1a"),
         x=0.5, xanchor="center", xref="paper",
     ),
@@ -1053,8 +1053,8 @@ fig14.update_layout(
 # ── Navegador ──────────────────────────────────────────────────
 graficas_2 = [
     ("Funnel de Conversión AFORE Coppel", fig11),
-    ("Distribución del Incremento Anual", fig12),
-    ("Incremento Acumulado Mensual por AFORE", fig13),
+    ("Distribución del Incremento Mensual", fig12),
+    ("Incremento Acumulado Anual por AFORE", fig13),
     ("Promedio de Incremento Mensual por Mes", fig14),  
 ]
 
