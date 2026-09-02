@@ -820,7 +820,7 @@ st.markdown("""
     <br><br>
     Esta integración permitiría desarrollar funcionalidades clave como <b>aportaciones voluntarias</b>, <b>educación financiera mediante blogs</b>, <b>simuladores de retiro</b>, <b>productos financieros de Afore Coppel</b> y herramientas de fidelización, fortaleciendo la experiencia del cliente y aumentando la captación digital.
     <br><br>
-    En la gráfica de <b>boxplot</b> se observa un <b>spread del 23.75% anual</b> en la media de <b>aportaciones voluntarias mensuales</b> entre AFORE que cuentan con aplicación móvil propia y aquellas que solamente operan a través de AforeMóvil, lo que sugiere una relación positiva entre digitalización y ahorro voluntario.
+    En la gráfica de <b>boxplot</b> se observa un <b>spread del $42.57 MMDP mensual</b> en la mediana del <b>flujo de efectivo de aportaciones voluntarias mensuales</b> entre coppel no que cuenta con aplicación móvil propia y aquellas que operan a través de Aplicacion Móvil, lo que sugiere una relación positiva entre digitalización y ahorro voluntario.
     <br><br>
     Asimismo, la gráfica de <b>barras por AFORE y por año</b> muestra que las <b>aportaciones voluntarias han ido aumentando gradualmente</b> en todas las AFORE; por ello, el siguiente paso estratégico es <b>fortalecer y consolidar</b> los canales digitales para capitalizar este crecimiento.
     <br><br>
